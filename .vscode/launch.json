@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter (模拟器 emulator-5554)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "emulator-5554"
+    },
+    {
+      "name": "Flutter (自动选择设备)",
+      "request": "launch",
+      "type": "dart"
+    }
+  ]
+}

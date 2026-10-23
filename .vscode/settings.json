@@ -1,0 +1,25 @@
+{
+  // Flutter / Dart SDK 位置（不依赖系统 PATH，避免 VS Code 从开始菜单启动时环境变量过期）
+  "dart.flutterSdkPath": "D:\\flutter",
+
+  // 保存文件时自动格式化
+  "editor.formatOnSave": true,
+  "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.rulers": [80],
+    "editor.formatOnType": true
+  },
+
+  // 保存后自动热重载（等价于在终端里按 r）
+  "dart.flutterHotReloadOnSave": "always",
+
+  // 让 VS Code 的集成终端也能直接用 flutter / adb，并且走国内镜像
+  "terminal.integrated.env.windows": {
+    "PATH": "D:\\flutter\\bin;D:\\Android\\SDK\\platform-tools;${env:PATH}",
+    "FLUTTER_STORAGE_BASE_URL": "https://storage.flutter-io.cn",
+    "PUB_HOSTED_URL": "https://pub.flutter-io.cn",
+    "JAVA_HOME": "D:\\Android\\Android_Studio\\jbr",
+    "ANDROID_HOME": "D:\\Android\\SDK",
+    "ANDROID_SDK_ROOT": "D:\\Android\\SDK"
+  }
+}
